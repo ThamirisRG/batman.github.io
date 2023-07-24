@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale = 1.0">
+    <title> Fotos </title>
+    <link rel="stylesheet" href="CSS/fotos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./fotos/2.jpeg" alt="Logo batman"/>
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section
+         class="personagens">
+            <h1 class="titulo" style="font-family: oxanium;">Galeria de fotos</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="batman" data-name="Batman" data-description="Após testemunhar o assassinato de seus pais ainda quando criança, o que o fez jurar vingança contra os criminosos e treinar todos os dias sozinho, além de criar um personagem baseado em um morcego para combater o crime. Foi aí que surgiu Batman, o super-herói da cidade de Gotham.">
+                    <img src="./fotos/card-batman.jpg" alt="personagem Batman "/>
+                </li>
+                <li class="personagem" id="mulher-gato" data-name="Mulher Gato" data-description="Em suas diferentes versões, Selina Kyle é uma mulher que perdeu os pais e entes queridos quando ainda era apenas uma criança. Com o ocorrido, ela encontra nos gatos uma espécie de refúgio adotando, assim, a personagem Mulher-Gato para ir atrás de vingança por seu passado.">
+                <img src="./fotos/card-mulher-gato.jpg" alt="personagem Mulher-Gato "/>
+                </li>
+                <li class="personagem" id="riddler" data-name="Riddler" data-description="Descrito como um mentor criminoso em Gotham City, que se deleita em incorporar enigmas e quebra-cabeças em seus esquemas, deixando-os como pistas para as autoridades resolverem.">
+                    <img src="./fotos/card-rinddler.jpg" alt="personagem Riddler"/>
+                </li>
+                <li class="personagem" id="pinguim" data-name="Pinguim" data-description="O Pinguim é um gênio do crime excêntrico, conhecido pelos negócios escusos. Nascido na rica família Cobblepot, Oswald foi mandado para o exterior quando garoto para estudar. Quando sua família empobreceu, Cobblepot recebeu educação criminosa nas ruas de Londres.">
+                    <img src="./fotos/card-pinguim.jpg" alt="personagem Pinguim"/>
+                </li>
+                <li class="personagem" id="gordon" data-name="Gordon" data-description="Gordon é um renomado tenente, no entanto falha em tentar prender um mafioso chinês. Mais uma vez, ele recorre à ajuda de Batman, que prende facilmente o mafioso na China. O Mascarado, ele e Harvey Dent formam um trio inseparável que luta contra o crime em Gotham.
+                ">
+                    <img src="./fotos/card-gordon.jpg" alt="personagem Gordon "/>
+                </li>
+                <li class="personagem" id="coringa" data-name="Coringa" data-description="Um comediante fracassado que é contratado pela máfia para roubar a usina nuclear em que trabalhava. Usando um capuz vermelho, ele tenta completar o crime, mas é parado por Batman. A briga faz com que ele caia em um tonel químico.">
+                    <img src="./fotos/card-coringa.jpg" alt="personagem Coringa "/>
+                </li>
+                <li class="personagem" id="alfred-pennyworth" data-name="Alfred-Pennyworth" data-description="Alfred Pennyworth, após uma carreira variada, foi contratado como mordomo da família Wayne quando os pais de Bruce Wayne foram assassinados. Alfred criou o jovem órfão e relutantemente o ajudou em sua busca para se tornar o Batman.
+                ">
+                    <img src="./fotos/card-alfred-pennyworth.jpg" alt="personagem Alfred Pennyworth "/>
+                </li>                
+                <li class="personagem" id="carmine-falcone" data-name="Carmine Falcone" data-description="Carmine Falcone era o chefe da família Falcone, uma poderosa máfia de Gotham City. Seu império criminoso chegava em todo canto da cidade, tendo pessoas que trabalhavam para ele até mesmo na prefeitura e na polícia da cidade. ">
+                    <img src="./fotos/card-carmine-falcone.jpg" alt="personagem Carmine Falcone "/>
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./fotos/card-batman.png" alt="Personagem selecionado"/>
+
+            <div class="informacao-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Batman</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Após testemunhar o assassinato de seus pais ainda 
+                    quando criança, o que o fez jurar vingança contra os 
+                    criminosos e treinar todos os dias sozinho, além de 
+                    criar um personagem baseado em um morcego para 
+                    combater o crime. Foi aí que surgiu Batman, o 
+                    super-herói da cidade de Gotham.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/fotos.js"></script>
+    
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./fotos/logo de baixo.png"/>
+        <span>Todos os direitos resevados ©</span>
+        <span>Desenvolvido por: Thamiris Gonçalves</span>
+    </footer>    
+</body>
+</html>
